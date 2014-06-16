@@ -1,0 +1,18 @@
+#rsync同步microedu代码的rule
+#rsync -az --include-from="/vagrant/rsync_push.rule" /vagrant/wwwroot/ xjchen@203.195.158.252:/var/www/wwwroot
+
++ /Application
+
++ /Public
+
+- /Application/Home
+
+- /Application/Install
+
+- /Application/User
+
+- /Application/Common/Common/function.php
+
+- /*
+
+

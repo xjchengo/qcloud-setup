@@ -1,0 +1,6 @@
+#从服务器上同步Runtime回来的代码
+#rsync -az --include-from="/vagrant/rsync_get.rule" xjchen@203.195.158.252:/var/www/wwwroot/ /vagrant/wwwroot/
+
++ /Runtime
+
+- /*
